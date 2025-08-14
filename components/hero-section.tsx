@@ -2,16 +2,23 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
+  const headingId = "hero-heading"
   return (
-    <section className="relative bg-black text-white">
-      <div className="absolute inset-0 z-0">
+    <section
+      aria-labelledby={headingId}
+      className="relative isolate overflow-hidden bg-black text-white">
+      <div className="absolute inset-0 -z-10">
         <Image
-          src="/saskatoon.png"
-          alt="saskatoon"
+          src="/saskatoon.webp"
+          alt="A wide view of Saskatoon, Saskatchewan"
           fill
-          className="object-cover opacity-30"
           priority
+          fetchPriority="high"
+          sizes="100vw"
+          className="object-cover"
         />
+        {/* Contrast overlay for readability */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-black/30" />
       </div>
       <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
         <div className="max-w-3xl">
