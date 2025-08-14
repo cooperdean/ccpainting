@@ -26,7 +26,7 @@ export function HeroSection() {
               <a href="#contact">Get a Quote</a>
             </Button>
             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
-              <a href="tel:817-454-1335">Call Us: 306-812-7066</a>
+              <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>
         </div>
