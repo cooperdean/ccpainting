@@ -38,7 +38,7 @@ export function Header() {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <a href="tel:817-454-1335" className="flex items-center space-x-2 text-white hover:text-emerald-600">
+            <a href="tel:306-812-7066" className="flex items-center space-x-2 text-white hover:text-emerald-600">
               <Phone className="h-5 w-5 text-emerald-500" />
               <span className="font-medium">306-812-7066</span>
             </a>
@@ -86,7 +86,7 @@ export function Header() {
               Contact
             </Link>
             <a
-              href="tel:817-454-1335"
+              href="tel:306-812-7066"
               className="flex items-center space-x-2 text-white hover:text-emerald-600"
               onClick={() => setIsMenuOpen(false)}
             >
