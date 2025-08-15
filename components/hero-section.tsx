@@ -18,7 +18,7 @@ export function HeroSection() {
           className="object-cover"
         />
         {/* Contrast overlay for readability */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/50" />
       </div>
       <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
         <div className="max-w-3xl">
