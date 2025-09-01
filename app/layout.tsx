@@ -11,7 +11,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "C&C Painting | Residential Painters | Commercial Painting Services",
   description: "Professional painting services for residential and commercial properties",
-    generator: 'v0.dev'
+  generator: "v0.dev",
+  metadataBase: new URL("https://www.ccpainting.co"),
+  alternates: {
+    canonical: "/",
+  },
 }
 
 export default function RootLayout({
