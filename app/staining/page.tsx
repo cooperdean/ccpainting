@@ -18,37 +18,37 @@ export const metadata: Metadata = {
 export default function StainingPage() {
   const steps = [
     {
-      icon: <ClipboardList className="h-10 w-10 text-emerald-500" />,
+      icon: <ClipboardList className="h-10 w-10 text-brand-500" />,
       title: "1. Consultation & Quote",
       description:
         "We begin by assessing your wood surfaces, discussing your goals, and helping you choose the right stain colors and finishes. You’ll receive a detailed quote outlining the entire process.",
     },
     {
-      icon: <Hammer className="h-10 w-10 text-emerald-500" />,
+      icon: <Hammer className="h-10 w-10 text-brand-500" />,
       title: "2. Preparation & Protection",
       description:
         "Our team carefully cleans/pressure washes, sands, and preps all wood surfaces to ensure the stain absorbs evenly. We also protect surrounding areas and fixtures for a clean work environment.",
     },
     {
-      icon: <Droplets className="h-10 w-10 text-emerald-500" />,
+      icon: <Droplets className="h-10 w-10 text-brand-500" />,
       title: "3. Conditioning & Testing",
       description:
         "If needed, we apply wood conditioners and test stain samples to confirm color and consistency before full application.",
     },
     {
-      icon: <Paintbrush className="h-10 w-10 text-emerald-500" />,
+      icon: <Paintbrush className="h-10 w-10 text-brand-500" />,
       title: "4. Stain Application",
       description:
         "Using professional techniques, we apply your chosen stain in even coats, carefully wiping excess and ensuring a consistent, rich finish that enhances the natural beauty of the wood.",
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-emerald-500" />,
+      icon: <Sparkles className="h-10 w-10 text-brand-500" />,
       title: "5. Sealing & Protection",
       description:
         "Once the stain dries, if desired we can apply protective sealers or clear coats to lock in color and provide lasting durability against wear and moisture.",
     },
     {
-      icon: <CheckCircle className="h-10 w-10 text-emerald-500" />,
+      icon: <CheckCircle className="h-10 w-10 text-brand-500" />,
       title: "6. Cleanup & Walkthrough",
       description:
         "We remove all coverings, clean the workspace, and walk through the project with you to ensure you’re completely satisfied with the results.",
@@ -76,10 +76,10 @@ export default function StainingPage() {
               Enhance the natural beauty of your wood surfaces with professional staining services. From decks and fences to cabinets and trim, our team delivers rich, lasting finishes that protect and elevate any space.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Get a Quote</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -125,12 +125,12 @@ export default function StainingPage() {
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

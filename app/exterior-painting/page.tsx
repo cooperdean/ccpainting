@@ -18,37 +18,37 @@ export const metadata: Metadata = {
 export default function ExteriorPaintingPage() {
   const steps = [
     {
-      icon: <ClipboardList className="h-10 w-10 text-emerald-500" />,
+      icon: <ClipboardList className="h-10 w-10 text-brand-500" />,
       title: "1. Consultation & Quote",
       description:
         "During your consultation, our exterior painting experts visit your property to evaluate siding, trim, and surfaces that need attention. We discuss your goals, recommend high-quality paint products and color options, and provide a clear, detailed quote outlining every step of the process so you know exactly what to expect.",
     },
     {
-      icon: <Hammer className="h-10 w-10 text-emerald-500" />,
+      icon: <Hammer className="h-10 w-10 text-brand-500" />,
       title: "2. Surface Preparation",
       description:
         "Proper preparation is the key to long-lasting exterior painting projects. We thoroughly power wash all surfaces to remove dirt, mildew, and peeling paint. Loose or flaking areas are scraped, glossy surfaces are sanded for better adhesion, and cracks or gaps are filled with professional-grade caulk to create a clean, stable base for paint application.",
     },
     {
-      icon: <Paintbrush className="h-10 w-10 text-emerald-500" />,
+      icon: <Paintbrush className="h-10 w-10 text-brand-500" />,
       title: "3. Priming",
       description:
         "To ensure optimal adhesion and weather resistance, we apply premium primers to all bare wood, metal, and repaired areas. This crucial step seals the surface, prevents stains from bleeding through, and helps your exterior paint withstand harsh weather conditions, moisture, and UV exposure for years to come.",
     },
     {
-      icon: <PaintRoller className="h-10 w-10 text-emerald-500" />,
+      icon: <PaintRoller className="h-10 w-10 text-brand-500" />,
       title: "4. Painting",
       description:
         "Our skilled painters use high-quality exterior paints to deliver smooth, even coverage on siding, trim, doors, and architectural details. With professional brushing, rolling, and spraying techniques, we achieve durable finishes that enhance curb appeal and protect your home from the elements.",
     },
     {
-      icon: <CheckCircle className="h-10 w-10 text-emerald-500" />,
+      icon: <CheckCircle className="h-10 w-10 text-brand-500" />,
       title: "5. Detailing & Touch-Ups",
       description:
         "After the main painting is complete, we inspect every surface closely, addressing any missed spots or inconsistencies. Trim work, edges, and decorative features are carefully detailed and touched up to create a flawless, uniform appearance across your entire exterior.",
     },
     {
-      icon: <Trash2 className="h-10 w-10 text-emerald-500" />,
+      icon: <Trash2 className="h-10 w-10 text-brand-500" />,
       title: "6. Cleanup & Walkthrough",
       description:
         "When painting is finished, we remove all masking, coverings, and equipment, restoring your landscaping and property to its original condition. Finally, we conduct a thorough walkthrough with you to review every detail and ensure you’re completely satisfied with your freshly painted exterior.",
@@ -57,49 +57,49 @@ export default function ExteriorPaintingPage() {
 
   const types = [
     {
-      icon: <Home className="h-10 w-10 text-emerald-500" />,
+      icon: <Home className="h-10 w-10 text-brand-500" />,
       title: "Wood & Vinyl Siding",
       description:
         "Professional preparation and painting to protect and refresh wood and vinyl siding with durable, lasting finishes.",
     },
     {
-      icon: <Grip className="h-10 w-10 text-emerald-500" />,
+      icon: <Grip className="h-10 w-10 text-brand-500" />,
       title: "Stucco",
       description:
         "Consistent, high-quality finishes for stucco exteriors, including repairs and color updates.",
     },
     {
-      icon: <BrickWall className="h-10 w-10 text-emerald-500" />,
+      icon: <BrickWall className="h-10 w-10 text-brand-500" />,
       title: "Brick Siding",
       description:
         "Specialized coatings for brick surfaces to seal, protect, and update your exterior.",
     },
     {
-      icon: <Anvil className="h-10 w-10 text-emerald-500" />,
+      icon: <Anvil className="h-10 w-10 text-brand-500" />,
       title: "Metal Siding",
       description:
         "Rust-resistant paints and coatings for metal siding that stand up to the elements.",
     },
     {
-      icon: <DoorClosed className="h-10 w-10 text-emerald-500" />,
+      icon: <DoorClosed className="h-10 w-10 text-brand-500" />,
       title: "Wood & Vinyl Trim",
       description:
         "Detailed painting for wood and vinyl trim, fascia, and architectural details to protect and enhance your exterior.",
     },
     {
-      icon: <Blinds className="h-10 w-10 text-emerald-500" />,
+      icon: <Blinds className="h-10 w-10 text-brand-500" />,
       title: "Soffits & Fascia",
       description:
         "Careful preparation and painting to keep soffits and fascia protected and looking their best.",
     },
     {
-      icon: <Shovel className="h-10 w-10 text-emerald-500" />,
+      icon: <Shovel className="h-10 w-10 text-brand-500" />,
       title: "Concrete Surfaces",
       description:
         "Protective coatings for concrete foundations, patios, and walls.",
     },
     {
-      icon: <Fence className="h-10 w-10 text-emerald-500" />,
+      icon: <Fence className="h-10 w-10 text-brand-500" />,
       title: "Decks & Fences",
       description:
         "Staining and painting for decks and fences to extend their lifespan and improve their appearance.",
@@ -127,10 +127,10 @@ export default function ExteriorPaintingPage() {
               Enhance your property’s curb appeal with our professional exterior painting services. Whether you’re updating siding, trim, or the entire exterior, our team delivers smooth, durable finishes and precise attention to detail for results that protect and beautify your home or business for years to come.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Get a Quote</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -207,12 +207,12 @@ export default function ExteriorPaintingPage() {
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

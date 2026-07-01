@@ -39,7 +39,7 @@ export function AboutUs() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-emerald-500 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-6 w-6 text-brand-500 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700">{benefit}</span>
                 </div>
               ))}

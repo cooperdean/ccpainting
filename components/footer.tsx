@@ -21,8 +21,8 @@ export function Footer() {
               Professional painting services for residential and commercial properties in the YXE area.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-emerald-400">
-                <Instagram className="h-5 w-5 text-emerald-400" />
+              <a href="#" className="text-gray-300 hover:text-brand-400">
+                <Instagram className="h-5 w-5 text-brand-400" />
                 <span className="sr-only">Instagram</span>
               </a>
             </div>
@@ -32,47 +32,47 @@ export function Footer() {
             <h3 className="font-bold text-lg mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/interior-painting" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/interior-painting" className="text-gray-300 hover:text-brand-400">
                   Interior Painting
                 </Link>
               </li>
               <li>
-                <Link href="/exterior-painting" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/exterior-painting" className="text-gray-300 hover:text-brand-400">
                   Exterior Painting
                 </Link>
               </li>
               <li>
-                <Link href="/commercial-painting" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/commercial-painting" className="text-gray-300 hover:text-brand-400">
                   Commercial Painting
                 </Link>
               </li>
               <li>
-                <Link href="/drywall-repair" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/drywall-repair" className="text-gray-300 hover:text-brand-400">
                   Drywall Repair
                 </Link>
               </li>
               <li>
-                <Link href="/cabinet-painting" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/cabinet-painting" className="text-gray-300 hover:text-brand-400">
                   Cabinet Painting
                 </Link>
               </li>
               <li>
-                <Link href="/texturing-stippling" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/texturing-stippling" className="text-gray-300 hover:text-brand-400">
                   Texturing & Stippling
                 </Link>
               </li>
               <li>
-                <Link href="/property-maintenance" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/property-maintenance" className="text-gray-300 hover:text-brand-400">
                   Property Maintenance
                 </Link>
               </li>
               <li>
-                <Link href="/color-consultation" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/color-consultation" className="text-gray-300 hover:text-brand-400">
                   Color Consultation
                 </Link>
               </li>
               <li>
-                <Link href="/staining" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/staining" className="text-gray-300 hover:text-brand-400">
                   Staining
                 </Link>
               </li>              
@@ -83,27 +83,27 @@ export function Footer() {
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/" className="text-gray-300 hover:text-brand-400">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/#about" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/#about" className="text-gray-300 hover:text-brand-400">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/#services" className="text-gray-300 hover:text-brand-400">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/#contact" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/#contact" className="text-gray-300 hover:text-brand-400">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/#quote" className="text-gray-300 hover:text-emerald-400">
+                <Link href="/#quote" className="text-gray-300 hover:text-brand-400">
                   Get a Quote
                 </Link>
               </li>
@@ -114,14 +114,14 @@ export function Footer() {
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
-                <Phone className="h-5 w-5 text-emerald-400 mt-0.5" />
-                <a href="tel:306-812-7066" className="text-gray-300 hover:text-emerald-400">
+                <Phone className="h-5 w-5 text-brand-400 mt-0.5" />
+                <a href="tel:306-812-7066" className="text-gray-300 hover:text-brand-400">
                   306-812-7066
                 </a>
               </li>
               <li className="flex items-start space-x-3">
-                <Mail className="h-5 w-5 text-emerald-400 mt-0.5" />
-                <a href="mailto:contact@ccpainting.co" className="text-gray-300 hover:text-emerald-400">
+                <Mail className="h-5 w-5 text-brand-400 mt-0.5" />
+                <a href="mailto:contact@ccpainting.co" className="text-gray-300 hover:text-brand-400">
                   contact@ccpainting.co
                 </a>
               </li>

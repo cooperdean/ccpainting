@@ -18,37 +18,37 @@ export const metadata: Metadata = {
 export default function CabinetPaintingPage() {
   const steps = [
   {
-    icon: <ClipboardList className="h-10 w-10 text-emerald-500" />,
+    icon: <ClipboardList className="h-10 w-10 text-brand-500" />,
     title: "1. Consultation & Quote",
     description:
       "We begin with an in-home consultation to assess your cabinets, discuss your goals, and review finish and color options. You’ll receive a clear, detailed quote outlining each step of the project.",
   },
   {
-    icon: <Hammer className="h-10 w-10 text-emerald-500" />,
+    icon: <Hammer className="h-10 w-10 text-brand-500" />,
     title: "2. Preparation & Protection",
     description:
       "Our team carefully removes hardware, protects surrounding surfaces, and thoroughly cleans all cabinet areas to remove grease and residue. Proper preparation ensures a smooth, durable finish.",
   },
   {
-    icon: <Brush className="h-10 w-10 text-emerald-500" />,
+    icon: <Brush className="h-10 w-10 text-brand-500" />,
     title: "3. Sanding & Priming",
     description:
       "Cabinet doors and drawer fronts are sanded and primed in preparation for spraying. Fixed cabinet boxes are also sanded and primed on-site to ensure consistent adhesion.",
   },
   {
-    icon: <PaintRoller className="h-10 w-10 text-emerald-500" />,
+    icon: <PaintRoller className="h-10 w-10 text-brand-500" />,
     title: "4. Spraying & Finishing",
     description:
       "All cabinet doors and drawers are taken to our professional spray shop for a factory-quality finish. Fixed cabinet boxes are sprayed on-site in your home with the same premium products and techniques to ensure a seamless look.",
   },
   {
-    icon: <Sparkles className="h-10 w-10 text-emerald-500" />,
+    icon: <Sparkles className="h-10 w-10 text-brand-500" />,
     title: "5. Detailing & Reassembly",
     description:
       "Once cured, all cabinet doors, drawers, and hardware are reinstalled. We inspect every surface and complete any final touch-ups to ensure your cabinets look flawless.",
   },
   {
-    icon: <CheckCircle className="h-10 w-10 text-emerald-500" />,
+    icon: <CheckCircle className="h-10 w-10 text-brand-500" />,
     title: "6. Cleanup & Walkthrough",
     description:
       "We remove all coverings, clean the workspace thoroughly, and conduct a final walkthrough with you to confirm you’re completely satisfied with your newly refinished cabinets.",
@@ -77,10 +77,10 @@ export default function CabinetPaintingPage() {
               Refresh your kitchen or bathroom with professional cabinet painting that delivers a smooth, modern finish. Our team uses premium products and meticulous techniques to transform worn cabinets into beautiful, like-new surfaces you’ll love.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Get a Quote</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -126,12 +126,12 @@ export default function CabinetPaintingPage() {
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

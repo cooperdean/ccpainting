@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react"
 export default function ServicesDropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
-      <Menu.Button className="inline-flex items-center gap-1 py-2 text-white hover:text-emerald-600 transition-colors">
+      <Menu.Button className="inline-flex items-center gap-1 py-2 text-white hover:text-brand-600 transition-colors">
         Services
         <ChevronDown className="h-4 w-4" />
       </Menu.Button>
@@ -16,7 +16,7 @@ export default function ServicesDropdown() {
               <a
                 href="/interior-painting"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Interior Painting
@@ -28,7 +28,7 @@ export default function ServicesDropdown() {
               <a
                 href="/exterior-painting"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Exterior Painting
@@ -40,7 +40,7 @@ export default function ServicesDropdown() {
               <a
                 href="/commercial-painting"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Commercial Painting
@@ -52,7 +52,7 @@ export default function ServicesDropdown() {
               <a
                 href="/drywall-repair"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Drywall Repair & Installation
@@ -64,7 +64,7 @@ export default function ServicesDropdown() {
               <a
                 href="/texturing-stippling"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Texturing & Stippling
@@ -76,7 +76,7 @@ export default function ServicesDropdown() {
               <a
                 href="/cabinet-painting"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Cabinet Painting
@@ -88,7 +88,7 @@ export default function ServicesDropdown() {
               <a
                 href="/property-maintenance"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Property Maintenance
@@ -100,7 +100,7 @@ export default function ServicesDropdown() {
               <a
                 href="/color-consultation"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Color Consultation
@@ -112,7 +112,7 @@ export default function ServicesDropdown() {
               <a
                 href="/staining"
                 className={`block px-4 py-2 text-sm ${
-                  active ? "bg-gray-100 text-emerald-600" : "text-gray-700"
+                  active ? "bg-gray-100 text-brand-600" : "text-gray-700"
                 }`}
               >
                 Staining

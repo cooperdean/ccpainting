@@ -18,37 +18,37 @@ export const metadata: Metadata = {
 export default function PropertyMaintenancePage() {
   const steps = [
     {
-      icon: <ClipboardList className="h-10 w-10 text-emerald-500" />,
+      icon: <ClipboardList className="h-10 w-10 text-brand-500" />,
       title: "1. Consultation & Assessment",
       description:
         "We start by meeting with you to understand your property’s needs and assess any areas requiring maintenance, repairs, or improvements. You’ll receive a clear, detailed quote outlining recommended services and timelines.",
     },
     {
-      icon: <ShieldCheck className="h-10 w-10 text-emerald-500" />,
+      icon: <ShieldCheck className="h-10 w-10 text-brand-500" />,
       title: "2. Protection & Preparation",
       description:
         "Our team protects floors, fixtures, and surfaces as needed, and prepares all areas to ensure work can be completed safely and efficiently with minimal disruption.",
     },
     {
-      icon: <Wrench className="h-10 w-10 text-emerald-500" />,
+      icon: <Wrench className="h-10 w-10 text-brand-500" />,
       title: "3. Repairs & Touch-Ups",
       description:
         "We handle everything from drywall patching and paint touch-ups to caulking, minor carpentry, ceiling repairs, ceiling texturing and routine maintenance tasks to keep your property in top condition.",
     },
     {
-      icon: <RefreshCw className="h-10 w-10 text-emerald-500" />,
+      icon: <RefreshCw className="h-10 w-10 text-brand-500" />,
       title: "4. Painting & Finishes",
       description:
         "When needed, we repaint or refresh surfaces using high-quality materials and professional techniques to maintain a clean, polished appearance throughout your space.",
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-emerald-500" />,
+      icon: <Sparkles className="h-10 w-10 text-brand-500" />,
       title: "5. Detailing & Quality Check",
       description:
         "After completing the work, we inspect all areas carefully and address any final details or adjustments to ensure everything meets our standards for quality and durability.",
     },
     {
-      icon: <CheckCircle className="h-10 w-10 text-emerald-500" />,
+      icon: <CheckCircle className="h-10 w-10 text-brand-500" />,
       title: "6. Cleanup & Walkthrough",
       description:
         "We remove all materials, clean up thoroughly, and walk through the project with you to confirm you’re completely satisfied with the results.",
@@ -76,10 +76,10 @@ export default function PropertyMaintenancePage() {
               Keep your property looking its best year-round with reliable maintenance services from C&C Painting. From repairs and touch-ups to repainting and regular upkeep, we help homeowners and businesses maintain clean, safe, and welcoming spaces.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Get a Quote</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -125,12 +125,12 @@ export default function PropertyMaintenancePage() {
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

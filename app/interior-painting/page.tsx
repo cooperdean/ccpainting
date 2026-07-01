@@ -18,37 +18,37 @@ export const metadata: Metadata = {
 export default function InteriorPaintingPage() {
   const steps = [
     {
-      icon: <ClipboardList className="h-10 w-10 text-emerald-500" />,
+      icon: <ClipboardList className="h-10 w-10 text-brand-500" />,
       title: "1. Consultation & Quote",
       description:
         "During your consultation, our site manager will assess your space, discuss color options, and provide a detailed, transparent quote. We take time to understand your vision so you can feel confident about your project before any work begins.",
     },
     {
-      icon: <Palette className="h-10 w-10 text-emerald-500" />,
+      icon: <Palette className="h-10 w-10 text-brand-500" />,
       title: "2. Color Consultation",
       description:
         "Our team provides expert color consultation to help you select shades and finishes that suit your style and space. We offer samples, guidance, and recommendations so you feel confident about your choices before painting begins.",
     },
     {
-      icon: <Hammer className="h-10 w-10 text-emerald-500" />,
+      icon: <Hammer className="h-10 w-10 text-brand-500" />,
       title: "3. Preparation",
       description:
         "We carefully move and protect your furniture, repair holes or cracks in the drywall, sand all surfaces for a smooth finish, and remove cover plates and light fixtures. Our thorough preparation ensures clean edges, flawless adhesion, and exceptional results.",
     },
     {
-      icon: <Paintbrush className="h-10 w-10 text-emerald-500" />,
+      icon: <Paintbrush className="h-10 w-10 text-brand-500" />,
       title: "4. Painting",
       description:
         "Using premium primers and high-quality paints, our professional painters apply smooth, even coats in your chosen colors. We use precise techniques—brushing, rolling, and spraying as needed—to achieve beautiful, consistent coverage throughout your home.",
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-emerald-500" />,
+      icon: <Sparkles className="h-10 w-10 text-brand-500" />,
       title: "5. Detailing & Touch-Ups",
       description:
         "We inspect every surface to ensure flawless results, addressing any missed spots or uneven areas with meticulous touch-ups. Trim, edges, and details are carefully finished so your interior looks clean, polished, and professionally painted.",
     },
     {
-      icon: <CheckCircle className="h-10 w-10 text-emerald-500" />,
+      icon: <CheckCircle className="h-10 w-10 text-brand-500" />,
       title: "6. Cleanup & Walkthrough",
       description:
         "After painting is complete, we remove all protective coverings, reassemble your space, and thoroughly clean the work area. During the final walkthrough, we review every detail with you to ensure you’re 100% satisfied with your freshly painted interior.",
@@ -57,49 +57,49 @@ export default function InteriorPaintingPage() {
 
   const types = [
     {
-      icon: <Square className="h-10 w-10 text-emerald-500" />,
+      icon: <Square className="h-10 w-10 text-brand-500" />,
       title: "Walls",
       description:
         "Smooth, consistent finishes for walls in any room, from bedrooms to living spaces.",
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-emerald-500" />,
+      icon: <Sparkles className="h-10 w-10 text-brand-500" />,
       title: "Accent Walls",
       description:
         "Create a focal point in any room with expertly painted accent walls that add style and dimension.",
     },
     {
-      icon: <SquareDashed className="h-10 w-10 text-emerald-500" />,
+      icon: <SquareDashed className="h-10 w-10 text-brand-500" />,
       title: "Ceilings",
       description:
         "Professional ceiling painting and texturing to brighten and refresh your interiors.",
     },
     {
-      icon: <RectangleHorizontal className="h-10 w-10 text-emerald-500" />,
+      icon: <RectangleHorizontal className="h-10 w-10 text-brand-500" />,
       title: "Trim & Baseboards",
       description:
         "Clean, detailed painting for trim, crown molding, and baseboards.",
     },
     {
-      icon: <DoorOpen className="h-10 w-10 text-emerald-500" />,
+      icon: <DoorOpen className="h-10 w-10 text-brand-500" />,
       title: "Doors",
       description:
         "Smooth, durable finishes for interior doors in any style or material.",
     },
     {
-      icon: <DoorClosed className="h-10 w-10 text-emerald-500" />,
+      icon: <DoorClosed className="h-10 w-10 text-brand-500" />,
       title: "Cabinets",
       description:
         "Professional cabinet painting to update kitchens, bathrooms, and built-ins.",
     },
     {
-      icon: <ChartNoAxesColumnIncreasing className="h-10 w-10 text-emerald-500" />,
+      icon: <ChartNoAxesColumnIncreasing className="h-10 w-10 text-brand-500" />,
       title: "Railings & Staircases",
       description:
         "Detailed preparation and painting for railings, spindles, and stairs.",
     },
     {
-      icon: <Library className="h-10 w-10 text-emerald-500" />,
+      icon: <Library className="h-10 w-10 text-brand-500" />,
       title: "Built-Ins & Shelving",
       description:
         "Custom painting for built-in shelves and storage to match your décor.",
@@ -128,10 +128,10 @@ export default function InteriorPaintingPage() {
               Transform your living spaces with our professional interior painting services. Whether you’re refreshing a single room or updating your entire home, our team delivers smooth, flawless finishes and precise attention to detail for results that make every room feel brand new.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Get a Quote</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -208,12 +208,12 @@ export default function InteriorPaintingPage() {
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

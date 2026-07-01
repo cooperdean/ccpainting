@@ -18,25 +18,25 @@ export const metadata: Metadata = {
 export default function CommercialPaintingPage() {
   const whys = [
     {
-      icon: <Clock className="h-10 w-10 text-emerald-500" />,
+      icon: <Clock className="h-10 w-10 text-brand-500" />,
       title: "Experience You Can Trust",
       description:
         "With over 10 years of experience serving Saskatoon businesses, we understand the unique demands of commercial painting. Our fully insured team uses premium materials and proven techniques to deliver consistent, long-lasting results.",
     },
     {
-      icon: <CalendarCheck2 className="h-10 w-10 text-emerald-500" />,
+      icon: <CalendarCheck2 className="h-10 w-10 text-brand-500" />,
       title: "Minimal Disruption",
       description:
         "We work around your schedule—including evenings and weekends—to keep your operations running smoothly.",
     },
     {
-      icon: <TrafficCone className="h-10 w-10 text-emerald-500" />,
+      icon: <TrafficCone className="h-10 w-10 text-brand-500" />,
       title: "Clean, Professional Approach",
       description:
         "From thorough preparation to meticulous cleanup, we maintain safe, organized job sites and respect your property.",
     },
     {
-      icon: <CalendarClock className="h-10 w-10 text-emerald-500" />,
+      icon: <CalendarClock className="h-10 w-10 text-brand-500" />,
       title: "Ongoing Maintenance Options",
       description:
         "Keep your space looking its best with scheduled maintenance painting and touch-ups.",
@@ -45,37 +45,37 @@ export default function CommercialPaintingPage() {
 
   const types = [
     {
-      icon: <LampDesk className="h-10 w-10 text-emerald-500" />,
+      icon: <LampDesk className="h-10 w-10 text-brand-500" />,
       title: "Offices & Corporate Spaces",
       description:
         "Fresh, modern finishes to impress clients and create a productive environment.",
     },
     {
-      icon: <Barcode className="h-10 w-10 text-emerald-500" />,
+      icon: <Barcode className="h-10 w-10 text-brand-500" />,
       title: "Retail Stores & Showrooms:",
       description:
         "Professional painting that reflects your brand and attracts customers.",
     },
     {
-      icon: <BedDouble className="h-10 w-10 text-emerald-500" />,
+      icon: <BedDouble className="h-10 w-10 text-brand-500" />,
       title: "Restaurants & Hospitality",
       description:
         "Clean, inviting spaces your guests will love.",
     },
     {
-      icon: <HousePlus className="h-10 w-10 text-emerald-500" />,
+      icon: <HousePlus className="h-10 w-10 text-brand-500" />,
       title: "Multi-Unit Residential",
       description:
         "Reliable repainting for apartments, condos, and rental properties.",
     },
     {
-      icon: <Warehouse className="h-10 w-10 text-emerald-500" />,
+      icon: <Warehouse className="h-10 w-10 text-brand-500" />,
       title: "Industrial Facilities & Warehouses",
       description:
         "Durable coatings that stand up to heavy use.",
     },
     {
-      icon: <School className="h-10 w-10 text-emerald-500" />,
+      icon: <School className="h-10 w-10 text-brand-500" />,
       title: "Schools & Institutions",
       description:
         "Safe, efficient painting for educational and public facilities.",
@@ -103,10 +103,10 @@ export default function CommercialPaintingPage() {
               Professional painting for offices, retail spaces, apartments, and industrial buildings. C&C Painting delivers durable finishes, minimal disruption, and reliable scheduling to keep your business looking polished and professional. We also offer ongoing maintenance painting and reliable service for repeat projects to keep your space looking its best.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Get a Quote</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -184,12 +184,12 @@ export default function CommercialPaintingPage() {
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

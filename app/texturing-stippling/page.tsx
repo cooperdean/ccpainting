@@ -18,37 +18,37 @@ export const metadata: Metadata = {
 export default function TexturingStipplingPage() {
   const steps = [
     {
-      icon: <ClipboardList className="h-10 w-10 text-emerald-500" />,
+      icon: <ClipboardList className="h-10 w-10 text-brand-500" />,
       title: "1. Consultation & Quote",
       description:
         "We start by meeting with you to understand your goals, review existing surfaces, and help you choose textures and finishes that suit your style. You’ll receive a clear, detailed quote outlining every step of the process.",
     },
     {
-      icon: <Layers className="h-10 w-10 text-emerald-500" />,
+      icon: <Layers className="h-10 w-10 text-brand-500" />,
       title: "2. Surface Preparation",
       description:
         "Our team protects floors and fixtures, repairs any damage, and preps your ceilings or walls to ensure the new texture adheres properly and looks consistent.",
     },
     {
-      icon: <PaintRoller className="h-10 w-10 text-emerald-500" />,
+      icon: <PaintRoller className="h-10 w-10 text-brand-500" />,
       title: "3. Priming & Masking",
       description:
         "We apply primers if needed and mask off adjacent areas to maintain clean edges. This step is essential for a professional result that blends seamlessly with existing finishes.",
     },
     {
-      icon: <Grip className="h-10 w-10 text-emerald-500" />,
+      icon: <Grip className="h-10 w-10 text-brand-500" />,
       title: "4. Texture Application",
       description:
         "Using professional tools and techniques, we apply your chosen texture or stipple pattern evenly across the surface, achieving the look you envisioned.",
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-emerald-500" />,
+      icon: <Sparkles className="h-10 w-10 text-brand-500" />,
       title: "5. Detailing & Touch-Ups",
       description:
         "Once the texture dries, we inspect and touch up any uneven areas to ensure a uniform finish that enhances your space.",
     },
     {
-      icon: <CheckCircle className="h-10 w-10 text-emerald-500" />,
+      icon: <CheckCircle className="h-10 w-10 text-brand-500" />,
       title: "6. Cleanup & Walkthrough",
       description:
         "We remove all masking, clean up thoroughly, and complete a final walkthrough with you to ensure you’re completely satisfied with your new textured surfaces.",
@@ -76,10 +76,10 @@ export default function TexturingStipplingPage() {
               Add depth, character, and style to your ceilings and walls with professional texturing and stippling. From matching existing patterns to creating fresh new looks, our team delivers consistent, high-quality finishes that transform any space.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Request a Quote</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -125,12 +125,12 @@ export default function TexturingStipplingPage() {
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

@@ -10,10 +10,10 @@ export function ContactSection() {
 
       <div className="space-y-6">
         <div className="flex items-start space-x-4">
-          <Phone className="h-6 w-6 text-emerald-500 mt-1" />
+          <Phone className="h-6 w-6 text-brand-500 mt-1" />
           <div>
             <h3 className="font-medium text-lg">Phone</h3>
-            <a href="tel:306-812-7066" className="text-emerald-500 hover:underline">
+            <a href="tel:306-812-7066" className="text-brand-500 hover:underline">
               306-812-7066
             </a>
             <p className="text-sm text-gray-500 mt-1">Available until 6pm every day.</p>
@@ -21,10 +21,10 @@ export function ContactSection() {
         </div>
 
         <div className="flex items-start space-x-4">
-          <Mail className="h-6 w-6 text-emerald-500 mt-1" />
+          <Mail className="h-6 w-6 text-brand-500 mt-1" />
           <div>
             <h3 className="font-medium text-lg">Email</h3>
-            <a href="mailto:contact@ccpainting.co" className="text-emerald-500 hover:underline">
+            <a href="mailto:contact@ccpainting.co" className="text-brand-500 hover:underline">
               contact@ccpainting.co
             </a>
             <p className="text-sm text-gray-500 mt-1">For quotes and general inquiries</p>
@@ -32,7 +32,7 @@ export function ContactSection() {
         </div>
 
         <div className="flex items-start space-x-4">
-          <MapPin className="h-6 w-6 text-emerald-500 mt-1" />
+          <MapPin className="h-6 w-6 text-brand-500 mt-1" />
           <div>
             <h3 className="font-medium text-lg">Service Area</h3>
             <p className="text-gray-700">Saskatoon & Surrounding Area</p>
@@ -43,7 +43,7 @@ export function ContactSection() {
         </div>
 
         <div className="flex items-start space-x-4">
-          <Clock className="h-6 w-6 text-emerald-500 mt-1" />
+          <Clock className="h-6 w-6 text-brand-500 mt-1" />
           <div>
             <h3 className="font-medium text-lg">Business Hours</h3>
             <p className="text-gray-700">Monday - Friday: 8:00 AM - 6:00 PM</p>

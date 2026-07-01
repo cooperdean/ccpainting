@@ -37,10 +37,10 @@ export default function ColorConsultationPage() {
               Take the guesswork out of choosing the perfect colors for your home or business. Our professional color consultation service helps you select harmonious palettes that match your style, lighting, and vision.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Get a Consultation</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -63,25 +63,25 @@ export default function ColorConsultationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
             {[
               {
-                icon: <ClipboardList className="h-10 w-10 text-emerald-500" />,
+                icon: <ClipboardList className="h-10 w-10 text-brand-500" />,
                 title: "Discuss Your Vision",
                 description:
                   "We start by listening to your ideas, preferences, and goals for each space to understand the look and mood you want to achieve.",
               },
               {
-                icon: <Eye className="h-10 w-10 text-emerald-500" />,
+                icon: <Eye className="h-10 w-10 text-brand-500" />,
                 title: "Review Samples & Options",
                 description:
                   "You’ll see curated color swatches, samples, and inspiration boards to help you compare shades, undertones, and finishes.",
               },
               {
-                icon: <Palette className="h-10 w-10 text-emerald-500" />,
+                icon: <Palette className="h-10 w-10 text-brand-500" />,
                 title: "Create a Cohesive Palette",
                 description:
                   "Together, we build a color palette that flows beautifully throughout your home or business, considering lighting, décor, and architecture.",
               },
               {
-                icon: <CheckCircle className="h-10 w-10 text-emerald-500" />,
+                icon: <CheckCircle className="h-10 w-10 text-brand-500" />,
                 title: "Finalize Recommendations",
                 description:
                   "You’ll receive expert recommendations, paint samples if needed, and a detailed plan so you can move forward with confidence.",
@@ -111,12 +111,12 @@ export default function ColorConsultationPage() {
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Book a Consultation</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

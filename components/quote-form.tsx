@@ -75,8 +75,8 @@ export function QuoteForm() {
 
       {isSubmitted ? (
         <div className="flex flex-col items-center justify-center py-12 text-center">
-          <div className="bg-green-100 rounded-full p-3 mb-4">
-            <CheckCircle className="h-12 w-12 text-green-600" />
+          <div className="bg-brand-100 rounded-full p-3 mb-4">
+            <CheckCircle className="h-12 w-12 text-brand-600" />
           </div>
           <h3 className="text-2xl font-bold mb-2">Quote Request Submitted!</h3>
           <p className="text-gray-600 mb-6">

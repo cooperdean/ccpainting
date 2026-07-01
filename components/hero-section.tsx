@@ -29,10 +29,10 @@ export function HeroSection() {
             Expert residential and commercial painting services, delivered with precision, reliability, and attention to detail. With over 10 years of experience and more than 1,000 satisfied clients, we’ve built a reputation for quality, reliability, and professional service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
               <a href="#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

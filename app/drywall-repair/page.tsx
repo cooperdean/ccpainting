@@ -18,37 +18,37 @@ export const metadata: Metadata = {
 export default function DrywallRepairPage() {
 const steps = [
   {
-    icon: <ClipboardList className="h-10 w-10 text-emerald-500" />,
+    icon: <ClipboardList className="h-10 w-10 text-brand-500" />,
     title: "1. Consultation & Quote",
     description:
       "During your consultation, our drywall specialists assess the condition of your walls, measure the repair or installation areas, and provide a clear, detailed quote. We take time to understand your goals so you feel confident about the project from the very start.",
   },
   {
-    icon: <Slice className="h-10 w-10 text-emerald-500" />,
+    icon: <Slice className="h-10 w-10 text-brand-500" />,
     title: "2. Surface Preparation",
     description:
       "We prepare your space by removing damaged drywall, protecting floors and furniture, and cleaning surfaces to ensure a stable base for installation or repair.",
   },
   {
-    icon: <Layout className="h-10 w-10 text-emerald-500" />,
+    icon: <Layout className="h-10 w-10 text-brand-500" />,
     title: "3. Drywall Installation or Repair",
     description:
       "Our team installs new drywall panels or repairs existing sections with precise cutting, fitting, and fastening techniques. All seams, joints, and fasteners are secured with screws to create an even, solid surface.",
   },
   {
-    icon: <Scroll className="h-10 w-10 text-emerald-500" />,
+    icon: <Scroll className="h-10 w-10 text-brand-500" />,
     title: "4. Taping & Mudding",
     description:
       "We apply joint tape and multiple coats of professional-grade joint compound over seams and repairs. Each layer is carefully smoothed and allowed to dry, building a seamless finish that blends perfectly with surrounding areas.",
   },
   {
-    icon: <Cuboid className="h-10 w-10 text-emerald-500" />,
+    icon: <Cuboid className="h-10 w-10 text-brand-500" />,
     title: "5. Sanding & Smoothing",
     description:
       "After the compound has fully cured, all surfaces are sanded to a consistent, smooth texture. This critical step ensures your walls are flawless and ready for primer and paint.",
   },
   {
-    icon: <CheckCircle className="h-10 w-10 text-emerald-500" />,
+    icon: <CheckCircle className="h-10 w-10 text-brand-500" />,
     title: "6. Cleanup & Walkthrough",
     description:
       "We remove dust, debris, and protective coverings, leaving your space clean and ready for finishing. Finally, we walk through the completed work with you to ensure you’re completely satisfied with the results.",
@@ -76,10 +76,10 @@ const steps = [
               Restore and enhance your living spaces with our professional drywall repair and installation services. Whether you’re fixing a single damaged area or updating entire rooms, our team delivers smooth, seamless finishes and precise attention to detail for results that make your walls look brand new.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="/#contact">Get a Quote</a>
               </Button>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white" asChild>
+              <Button size="lg" className="bg-brand-600 hover:bg-brand-700 text-white" asChild>
                 <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
               </Button>
             </div>
@@ -125,12 +125,12 @@ const steps = [
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Button
               size="lg"
-              className="bg-gray-900 hover:bg-emerald-700 text-white"
+              className="bg-gray-900 hover:bg-brand-700 text-white"
               asChild
             >
               <a href="/#contact">Get a Quote</a>
             </Button>
-            <Button size="lg" className="bg-gray-900 hover:bg-emerald-700 text-white" asChild>
+            <Button size="lg" className="bg-gray-900 hover:bg-brand-700 text-white" asChild>
               <a href="tel:306-812-7066">Call Us: 306-812-7066</a>
             </Button>
           </div>

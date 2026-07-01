@@ -25,24 +25,24 @@ export function Header() {
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-white hover:text-emerald-600 transition-colors">
+            <Link href="/" className="text-white hover:text-brand-600 transition-colors">
               Home
             </Link>
             <ServicesDropdown/>
-            <Link href="/#about" className="text-white hover:text-emerald-600 transition-colors">
+            <Link href="/#about" className="text-white hover:text-brand-600 transition-colors">
               About
             </Link>
-            <Link href="/#contact" className="text-white hover:text-emerald-600 transition-colors">
+            <Link href="/#contact" className="text-white hover:text-brand-600 transition-colors">
               Contact
             </Link>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <a href="tel:306-812-7066" className="flex items-center space-x-2 text-white hover:text-emerald-600">
-              <Phone className="h-5 w-5 text-emerald-500" />
+            <a href="tel:306-812-7066" className="flex items-center space-x-2 text-white hover:text-brand-600">
+              <Phone className="h-5 w-5 text-brand-500" />
               <span className="font-medium">306-812-7066</span>
             </a>
-            <Button asChild className="bg-emerald-600 hover:bg-emerald-700 text-white">
+            <Button asChild className="bg-brand-600 hover:bg-brand-700 text-white">
               <a href="#contact">Get a Quote</a>
             </Button>
           </div>
@@ -59,41 +59,41 @@ export function Header() {
           <div className="container mx-auto px-4 py-4 space-y-4">
             <Link
               href="/"
-              className="block text-white hover:text-emerald-600 transition-colors"
+              className="block text-white hover:text-brand-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/#services"
-              className="block text-white hover:text-emerald-600 transition-colors"
+              className="block text-white hover:text-brand-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Services
             </Link>
             <Link
               href="/#about"
-              className="block text-white hover:text-emerald-600 transition-colors"
+              className="block text-white hover:text-brand-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
               href="/#contact"
-              className="block text-white hover:text-emerald-600 transition-colors"
+              className="block text-white hover:text-brand-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
             </Link>
             <a
               href="tel:306-812-7066"
-              className="flex items-center space-x-2 text-white hover:text-emerald-600"
+              className="flex items-center space-x-2 text-white hover:text-brand-600"
               onClick={() => setIsMenuOpen(false)}
             >
               <Phone className="h-5 w-5" />
               <span className="font-medium">306-812-7066</span>
             </a>
-            <Button asChild className="w-full bg-emerald-600" onClick={() => setIsMenuOpen(false)}>
+            <Button asChild className="w-full bg-brand-600" onClick={() => setIsMenuOpen(false)}>
               <a href="#contact">Get a Quote</a>
             </Button>
           </div>
