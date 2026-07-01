@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ClipboardList, Hammer, Droplets, Paintbrush, Sparkles, CheckCircle } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Wood Staining Saskatoon",
+  description: "Professional wood staining services in Saskatoon. Decks, fences, siding, and interior woodwork. Protect and beautify your wood surfaces. Get a free quote.",
+  alternates: { canonical: "/staining" },
+  openGraph: {
+    title: "Wood Staining Saskatoon | C&C Painting",
+    description: "Professional wood staining services in Saskatoon. Decks, fences, siding, and interior woodwork. Protect and beautify your wood surfaces. Get a free quote.",
+    url: "https://www.ccpainting.co/staining",
+  },
+}
 
 export default function StainingPage() {
   const steps = [

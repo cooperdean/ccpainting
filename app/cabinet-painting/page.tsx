@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ClipboardList, Hammer, Brush, PaintRoller, Sparkles, CheckCircle } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Cabinet Painting Saskatoon",
+  description: "Transform your kitchen or bathroom with professional cabinet painting in Saskatoon. Factory-quality spray finishes at competitive prices. Get a free quote.",
+  alternates: { canonical: "/cabinet-painting" },
+  openGraph: {
+    title: "Cabinet Painting Saskatoon | C&C Painting",
+    description: "Transform your kitchen or bathroom with professional cabinet painting in Saskatoon. Factory-quality spray finishes at competitive prices. Get a free quote.",
+    url: "https://www.ccpainting.co/cabinet-painting",
+  },
+}
 
 export default function CabinetPaintingPage() {
   const steps = [

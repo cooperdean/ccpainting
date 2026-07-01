@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Paintbrush, ClipboardList, Hammer, PaintRoller, Trash2, CheckCircle, DoorClosed, Home, BrickWall, Layers, Grip, Anvil, Blinds, Shovel, Fence } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Exterior Painting Saskatoon",
+  description: "Professional exterior painting in Saskatoon. Siding, trim, decks, and more. Durable finishes that protect and enhance your home's curb appeal. Free estimates.",
+  alternates: { canonical: "/exterior-painting" },
+  openGraph: {
+    title: "Exterior Painting Saskatoon | C&C Painting",
+    description: "Professional exterior painting in Saskatoon. Siding, trim, decks, and more. Durable finishes that protect and enhance your home's curb appeal. Free estimates.",
+    url: "https://www.ccpainting.co/exterior-painting",
+  },
+}
 
 export default function ExteriorPaintingPage() {
   const steps = [

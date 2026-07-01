@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ClipboardList, Grip, Layers, PaintRoller, CheckCircle, Sparkles } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Texturing & Stippling Saskatoon",
+  description: "Professional wall and ceiling texturing and stippling services in Saskatoon. Add depth and style to any surface. Expert results guaranteed. Get a free estimate.",
+  alternates: { canonical: "/texturing-stippling" },
+  openGraph: {
+    title: "Texturing & Stippling Saskatoon | C&C Painting",
+    description: "Professional wall and ceiling texturing and stippling services in Saskatoon. Add depth and style to any surface. Expert results guaranteed. Get a free estimate.",
+    url: "https://www.ccpainting.co/texturing-stippling",
+  },
+}
 
 export default function TexturingStipplingPage() {
   const steps = [

@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Palette, ClipboardList, Eye, CheckCircle } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Color Consultation Saskatoon",
+  description: "Expert paint color consultation services in Saskatoon. Choose the perfect colors for your home or business with guidance from our experienced team. Book today.",
+  alternates: { canonical: "/color-consultation" },
+  openGraph: {
+    title: "Color Consultation Saskatoon | C&C Painting",
+    description: "Expert paint color consultation services in Saskatoon. Choose the perfect colors for your home or business with guidance from our experienced team. Book today.",
+    url: "https://www.ccpainting.co/color-consultation",
+  },
+}
 
 export default function ColorConsultationPage() {
   return (

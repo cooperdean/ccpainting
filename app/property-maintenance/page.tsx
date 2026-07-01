@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ClipboardList, ShieldCheck, Wrench, RefreshCw, Sparkles, CheckCircle } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Property Maintenance Saskatoon",
+  description: "Reliable property maintenance services in Saskatoon. Painting touch-ups, minor repairs, and ongoing upkeep for residential and commercial properties. Get a quote.",
+  alternates: { canonical: "/property-maintenance" },
+  openGraph: {
+    title: "Property Maintenance Saskatoon | C&C Painting",
+    description: "Reliable property maintenance services in Saskatoon. Painting touch-ups, minor repairs, and ongoing upkeep for residential and commercial properties. Get a quote.",
+    url: "https://www.ccpainting.co/property-maintenance",
+  },
+}
 
 export default function PropertyMaintenancePage() {
   const steps = [

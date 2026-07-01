@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Paintbrush, ClipboardList, Hammer, Sparkles, RectangleHorizontal, DoorClosed, ChartNoAxesColumnIncreasing, SquareDashed, Columns, Ruler, CheckCircle, Palette,  Square, MoveVertical, Separators, DoorOpen, Building2, Stairs, Library } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Interior Painting Saskatoon",
+  description: "Professional interior painting services in Saskatoon. Walls, ceilings, trim, cabinets, and more. Expert painters delivering flawless finishes. Get a free quote.",
+  alternates: { canonical: "/interior-painting" },
+  openGraph: {
+    title: "Interior Painting Saskatoon | C&C Painting",
+    description: "Professional interior painting services in Saskatoon. Walls, ceilings, trim, cabinets, and more. Expert painters delivering flawless finishes. Get a free quote.",
+    url: "https://www.ccpainting.co/interior-painting",
+  },
+}
 
 export default function InteriorPaintingPage() {
   const steps = [

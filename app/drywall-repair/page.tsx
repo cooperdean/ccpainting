@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Layout, ClipboardList, Slice, Scroll, CheckCircle, Cuboid } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Drywall Repair Saskatoon",
+  description: "Expert drywall repair services in Saskatoon. Holes, cracks, water damage, and texture matching. Seamless repairs ready for paint. Get a free estimate.",
+  alternates: { canonical: "/drywall-repair" },
+  openGraph: {
+    title: "Drywall Repair Saskatoon | C&C Painting",
+    description: "Expert drywall repair services in Saskatoon. Holes, cracks, water damage, and texture matching. Seamless repairs ready for paint. Get a free estimate.",
+    url: "https://www.ccpainting.co/drywall-repair",
+  },
+}
 
 export default function DrywallRepairPage() {
 const steps = [

@@ -1,7 +1,19 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { TrafficCone, Clock, CalendarCheck2, CalendarClock, LampDesk, Barcode, BedDouble, HousePlus, Warehouse, School } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: "Commercial Painting Saskatoon",
+  description: "Professional commercial painting services in Saskatoon. Office buildings, retail spaces, warehouses, and more. Reliable, on-time, and on-budget. Get a quote.",
+  alternates: { canonical: "/commercial-painting" },
+  openGraph: {
+    title: "Commercial Painting Saskatoon | C&C Painting",
+    description: "Professional commercial painting services in Saskatoon. Office buildings, retail spaces, warehouses, and more. Reliable, on-time, and on-budget. Get a quote.",
+    url: "https://www.ccpainting.co/commercial-painting",
+  },
+}
 
 export default function CommercialPaintingPage() {
   const whys = [
